@@ -1,13 +1,38 @@
-# SimpleComm
+# SimpleComm for Java
 
-SimpleComm library is used to communcate with *Industrial Shields* PLCs devices through the SimpleComm Arduino module included into the [Tools40 library](https://github.com/IndustrialShields/arduino-Tools40/blob/master/README.md).
+The SimpleComm library is used to communcate with *Industrial Shields* PLCs devices through the SimpleComm protocol. You can find the [arduino-SimpleComm library here](https://github.com/Industrial-Shields/arduino-SimpleComm).
 
-## API reference
-1. [JAVA](java/README.md)
 
-## TODO
-More languages:
-1. C++
-2. Python
-3. Javascript
-4. ...
+## Gettings started
+
+### Prerequisites on Linux
+
+1. JAVA development kit (SDK)
+2. JAVA runtime environment (JRE)
+3. (Optional) Doxygen for building documentation
+
+### Building (Linux)
+
+1. Download or clone the library from the GitHub:
+```
+git clone https://github.com/Industrial-Shields/java-SimpleComm
+cd java-SimpleComm
+```
+2. Build the JAR file:
+```
+make
+```
+3. Copy the SimpleComm.jar file wherever you want.
+
+4. (Optional) Build examples:
+```
+make tests
+```
+5. (Optional) Build documenation:
+```
+make doc
+```
+
+## Reference
+TODO
+
